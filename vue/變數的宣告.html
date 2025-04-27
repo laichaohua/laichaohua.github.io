@@ -1,0 +1,42 @@
+<html>
+<lu>var 與 let / const，主要有幾項差異:
+    <li>作用域(scope)不同</li>
+    <li>for 迴圈的綁定(bind)差異</li>
+    <li>變量提升(hoisting)不同</li>
+
+</lu>
+<script>
+    console.log("Hello World");
+    let s = 'aaa\naa'
+    console.log(s)
+
+    let eggcount = 20;
+    console.log(`On easter we decorted ${eggcount} easter eggs`);
+
+    let a = 5.2; b = 10;
+    console.log(`Sum of ${a} and ${b} is ${a + b}`);
+    console.log(a + " + " + b + " = " + (a + b));
+
+    let myname = 'Eric';
+    let myage = 30;
+    let weight = 68;
+    alert('Hi 我是 ' + myname + "，我今年" + myage + "歲，我的體重" + weight + "公斤");
+
+    //多個變數
+    let user = 'John',
+        age = 28,
+        message = 'Hello'
+
+    let messageA;
+    messageA = "Hello";
+    messageA = "World";//值改變了
+
+    let obj = {
+        name: 'lisi',
+        age: 20,
+    }
+    console.log(obj);
+
+</script>
+
+</html>
