@@ -26,6 +26,9 @@
     <!-- Bootstrap JS (含 Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <style>html {
+        scroll-behavior: smooth;
+      }</style>
 
     <title>Home</title>
 </head>
@@ -52,11 +55,11 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    其餘介紹
+                                    吃喝玩樂
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="third.html">美食</a></li>
-                                    <li><a class="dropdown-item" href="#">好玩</a></li>
+                                    <li><a class="dropdown-item" href="third.html">吃喝</a></li>
+                                    <li><a class="dropdown-item" href="four.html">玩樂</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
@@ -64,7 +67,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">聯絡我們</a>
+                                <a href="#contact" class="nav-link">聯絡我們</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
@@ -141,21 +144,21 @@
                 <div class="col-md-4">
                     <img src="img/永利.PNG" alt="" width="250">
                     <p>小賭怡情，大賭興家<br>
-                        我們是您最優質的澳門頂級渡假村參考網站</p>
+                        我們是您最優質的澳門渡假參考網站</p>
                 </div>
                 <div class="col-md-3">
                     <h4>回至上層</h4>
                     <ul>
-                        <li><a href="index.html">首頁</a></li>
-                        <li><a href="second.html">訂閱</a></li>
+                        <li><a href="#">首頁</a></li>
+                        <li><a href="#">訂閱</a></li>
 
                     </ul>
                     <ul>
-                        <li><a href="#">Vue作品</a></li>
+                        <li><a href="#">吃喝玩樂</a></li>
                         <li><a href="#">聯絡我們</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="contact">
                     <h4>聯絡我們</h4>
                     <p>台北市信義區5段7號樓<br>
                         Phone:(02)8101-8898 <br>
@@ -163,21 +166,24 @@
                     </p>
                 </div>
 
-                <div class="col-auto">
-                    <h4>其餘連結</h4>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
-                            alt="Facebook" width="32" height="32">
-                    </a>
-                    <a
-                        href="https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=2007364552&redirect_uri=%0D%0Ahttps%3A%2F%2Flaichaohua.github.io&state=abc123xyz&scope=profile%20openid%20email">
-                        <img src="https://scdn.line-apps.com/n/line_login_btn/default.png" alt="LINE 登入" height="40">
-                    </a>
-
-
-                </div>
-                <div>
-                    <div>
+            <div class="col-md-2">
+                <h4 class="text-center">其餘連結</h4>
+                    <div class="d-flex justify-content-center gap-3">                   
+                    
+                        <a href="https://www.facebook.com/yourpage" class="text-black" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yourprofile" class="text-black" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/yourchannel" class="text-black" target="_blank" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                                    
+            </div>
+        <div>
+    <div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

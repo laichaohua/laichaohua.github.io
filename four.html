@@ -41,19 +41,61 @@
         }
 
         .card-img-top {
-            height: 200px;
+            height: 300px;
             object-fit: cover;
         }
+
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-auto" href="#">澳門景點介紹</a>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index"> <img src="img/logo2.PNG" alt="logo" width="=14"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">主頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="second.html">訂閱</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    吃喝玩樂
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="third.html">吃喝</a></li>
+                                    <li><a class="dropdown-item" href="#">玩樂</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">YouTobe介紹</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">聯絡我們</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
         </div>
-    </nav>
+    </header>
 
     <div class="container mt-5">
         <h1 class="text-center mb-4">澳門必去景點</h1>
@@ -65,7 +107,7 @@
                     <img src="img/大三八排訪.PNG" class="card-img-top" alt="大三巴牌坊">
                     <div class="card-body">
                         <h5 class="card-title">大三巴牌坊</h5>
-                        <p class="card-text">澳門代表性地標，融合歐洲建築風格，是拍照與歷史探索的熱門景點。</p>
+                        <p class="card-text">大三巴牌坊（葡萄牙語：Ruínas de São Paulo）是澳門最具代表性的歷史地標之一，位於澳門花王堂區，為17世紀天主教建築群的遺址，現僅存聖保祿教堂（又稱「天主之母教堂」）的正面前壁。這座建築融合了歐洲巴洛克風格與東方元素，展現了澳門作為中西文化交匯地的獨特歷史背景。</p>
                     </div>
                 </div>
             </div>
@@ -73,10 +115,10 @@
             <!-- 景點卡片2 -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="img/威尼詩人.PNG" class="card-img-top" alt="威尼斯人度假村">
+                    <img src="img/威尼斯人.png" class="card-img-top" alt="威尼斯人度假村">
                     <div class="card-body">
                         <h5 class="card-title">威尼斯人度假村</h5>
-                        <p class="card-text">仿威尼斯運河設計，結合娛樂、購物與住宿，是澳門最熱門的綜合娛樂場。</p>
+                        <p class="card-text">澳門威尼斯人酒店是到澳門旅遊的必排景點，集美食、購物、世界級娛樂及商務設施於一身的大型綜合度假勝地。佔地1050萬平方呎，為亞洲最大的單幢式酒店，氣派又豪華。很多朋友來到澳門住宿首選就是澳門威尼斯人酒店，而且地理位置在路氹區的酒店中算是中心位置，緊鄰主要幹道，交通十分便利。白天在外頭跑行程，晚上就到澳門威尼斯人逛逛街，或是到賭場娛樂小賭都是不錯的安排。而且購物中心每日定時上演特色街頭表演，比想象中還有趣！</p>
                     </div>
                 </div>
             </div>
@@ -87,7 +129,46 @@
                     <img src="img/旅遊塔.PNG" class="card-img-top" alt="澳門旅遊塔">
                     <div class="card-body">
                         <h5 class="card-title">澳門旅遊塔</h5>
-                        <p class="card-text">可俯瞰整個澳門城市景觀，還能體驗高空彈跳和觀景台。</p>
+                        <p class="card-text">由紐西蘭建築師高登·莫勒（Gordon Moller）設計，受奧克蘭天空塔啟發，於1998年動工，2001年12月19日正式啟用 。旅遊塔總高338米，為全球第十高的獨立式觀光塔，設有61層樓 。塔內設有觀光設施、餐廳、會議中心、購物區及電訊廣播設備，是澳門的重要多功能建築 。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 景點卡片4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/超自然.png" class="card-img-top" alt="澳門旅遊塔">
+                    <div class="card-body">
+                        <h5 class="card-title">teamLab 超自然空間</h5>
+                        <p class="card-text">teamLab是自2001年起開始活動的藝術團隊。通過團隊創作來探索藝術、科學、技術和自然界交匯點的國際性跨域藝術團隊。由藝術家、程式設計師、工程師、CG動畫師、數學家和建築師等各個領域的專家組成。
+                            teamLab想通過藝術，摸索人與世界的關係和新的認知。人類爲了更好地認知世界，習慣性地把世界分割，並將其視爲具有邊界的事物。我們探索認知的邊界，並試圖超越人類對世界、對時間連續性的邊界的認知。世間萬物都是奇跡般地存在於積年累月且沒有邊界的連續性上的。
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 景點卡片5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/水舞間.png" class="card-img-top" alt="澳門旅遊塔">
+                    <div class="card-body">
+                        <h5 class="card-title">「水舞間」秀（The House of Dancing Water）</h5>
+                        <p class="card-text">這是一場關於愛情與冒險、光明與黑暗的對決。英勇的異鄉人意外闖入神秘王國，拯救被黑皇后囚禁的安妮公主。水成為他們的聯結，見證了由愛與勇氣催生而出的奇跡。
+
+                            重新構思的《水舞間》是由佩帕里尼工作室（Peparini Studios）藝術總監朱利亞諾‧佩帕里尼 先生（Mr. Giuliano Peparini） 親自操刀，並與Our Legacy Creations團隊共同製作而成。《水舞間》融合高空雜技、戲劇化敘述與最前沿的水效科技。以引人入勝的視覺奇觀與澎湃活力，再次點燃觀眾的感官想像，開啟一場前所未有的史詩級水上探險。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 景點卡片6 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/大砲台.png" class="card-img-top" alt="澳門旅遊塔">
+                    <div class="card-body">
+                        <h5 class="card-title">澳門博物館和大砲台</h5>
+                        <p class="card-text">即聖保祿炮台，1617年始建，1626年完工，前後歷時十載。炮台建於山崗之上，山雖不高，但位居澳門半島中央，為主要的制高點，便於控制四面八方。佔地約8000平方米，設施完備，炮台內設有蓄水池、軍需儲存庫、官兵營房等一應俱全，是當時澳門防禦系統中心。炮台可架設多達32門大砲，與其他炮台一起構成覆蓋東西海岸的寬大火力防衛網。大炮台長期列為軍事禁區，至1965年原營房位置建成氣象台，並於1976年開放為遊覽區。1998年，政府將該處改建為澳門博物館並對外開放。
+
+                            文化設施:</p>
                     </div>
                 </div>
             </div>
@@ -126,13 +207,30 @@
     </section>
 
 
-    <footer class="bg-dark text-white text-center py-3 mt-5">
-        &copy; 2025 澳門景點介紹 All Rights Reserved.
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-2">
+                <p style="color: #ffffff; opacity: 1;">&copy; 2025 美食介紹網 All Rights Reserved.　｜　網頁設計：賴兆華</p>
 
-
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="https://www.facebook.com/yourpage" class="text-white" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/yourprofile" class="text-white" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/yourchannel" class="text-white" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 
 </html>
