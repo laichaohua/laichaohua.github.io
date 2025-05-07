@@ -1,0 +1,181 @@
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="html,css,網頁,js,javascript">
+    <meta name="description" content="Here is my page">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="LAI CHAO HUA">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--title小圖示-->
+    <link rel="icon" href="img/logo/logo_small.svg">
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--字型-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap JS (含 Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Home</title>
+
+
+
+
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #006600;
+        }
+
+        .main-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index"> <img src="img/logo2.PNG" alt="logo" width="=14"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-cu可以rrent="page" href="#">主頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="second.html" target="_blank">訂閱</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    吃喝玩樂
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="third.html">吃喝</a></li>
+                                    <li><a class="dropdown-item" href="four.html">玩樂</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">YouTube介紹</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">聯絡我們</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholdfer="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <h1>歡迎來到澳門！</h1>
+        <p>澳門是一個位於中國南部的特別行政區，以其融合中西文化、華麗的賭場和歷史建築聞名。</p>
+        <p>這裡有葡式風情的街道、美味的蛋撻，以及世界文化遺產的景點，如大三巴牌坊。</p>
+
+        <h2 class="mt-4">影片介紹</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bTVDGdYO468?si=a4Lsml9eE7AEjcyK"
+            title="澳門介紹影片" allowfullscreen></iframe>
+        <p class="mt-2"><a href="https://www.youtube.com/watch?v=TlB-kPG4IMA" target="_blank">在 YouTube 上觀看影片</a></p>
+    </div>
+
+
+
+    <div class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
+        <div class="card text-center p-4 shadow" style="max-width: 500px;">
+            <h4>小遊戲：請解釋士多啤梨、雲呢拿忌廉冰淇淋是什麼東西？</h4>
+            <input type="text" class="form-control mb-2" id="dessertAnswer" placeholder="請輸入你的答案">
+            <button class="btn btn-primary" onclick="checkAnswer()">提交</button>
+            <p id="quizFeedback" class="mt-2"></p>
+        </div>
+    </div>
+
+
+    <script>
+        function checkAnswer() {
+            const input = document.getElementById("dessertAnswer").value.trim();
+            const feedback = document.getElementById("quizFeedback");
+            if (input === "草莓香草奶油冰淇淋") {
+                feedback.innerText = "太強了!竟然答對了！🍮";
+                feedback.style.color = "green";
+            } else {
+                feedback.innerText = "請再看一次影片，哈哈 ! ";
+                feedback.style.color = "red";
+            }
+        }
+    </script>
+
+
+
+
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-2">
+            <p style="color: #ffffff; opacity: 1;">&copy; 2025 美食介紹網 All Rights Reserved.　｜　網頁設計：賴兆華</p>
+
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="https://www.facebook.com/yourpage" class="text-white" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/yourprofile" class="text-white" target="_blank"
+                    aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/yourchannel" class="text-white" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
